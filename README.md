@@ -12,3 +12,7 @@ NVIDIA USERS ONLY: Open `distrobox.ini` then switch `nvidia` to `true`
 5. `cd && chmod +x setup.elv && ./setup.elv` to compile and install Project Alice into your V2 copy.
 
 By default, the setup script compiles the release version, which may take a few hours to complete depending on your CPU specs. After that, it's smooth sailing—anytime you want to game, simply enter the container as in step #4 and run `launch.elv`.
+
+## Releases?
+
+In theory, Alice builds compiled inside the container should be cross-compatible with other users containers as well, although this is something I haven't tested. In case you want to try this out, I've attached my Release build of AliceIncremental (main branch, commit `401c2b0`). Follow all instructions up to step #4, extract the archive to your `v2` directory, then run `launch.elv`.
