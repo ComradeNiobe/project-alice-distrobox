@@ -3,6 +3,8 @@ I created this so I could play PA on any distro I wanted without needing to swea
 
 ## The Details
 
+Make sure you clone this repository into your home directory!
+
 NVIDIA USERS ONLY: Open `distrobox.ini` then switch `nvidia` to `true`
 
 1. Install [Podman](https://podman.io/) and [Distrobox](https://distrobox.it/).
