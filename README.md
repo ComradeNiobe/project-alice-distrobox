@@ -15,4 +15,4 @@ By default, the setup script compiles the release version, which may take a few 
 
 ## Releases?
 
-In theory, Alice builds compiled inside the container should be cross-compatible with other users containers as well, although this is something I haven't tested. In case you want to try this out, I've attached my Release build of AliceIncremental (main branch, commit `401c2b0`). Follow all instructions up to step #4, extract the archive to your `v2` directory, then run `launch.elv`.
+In theory, Alice builds compiled inside the container should be cross-compatible with other users containers as well, although this is something I haven't tested. In case you want to try this out, I've attached my build in releases (main branch, commit `401c2b0`, Release build + clang18). Follow all instructions up to step #4, extract the archive to your `v2` directory, then run `launch.elv`.
