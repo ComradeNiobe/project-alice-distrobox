@@ -1,5 +1,9 @@
 container/**
-!container/setup.elv
-!container/launch.elv
+!container/launcher.sh
 !container/.gitkeep
+!container/lib
+!container/lib/**
+!container/easybashgui
+!container/easybashgui.lib
+!container/easybashlib
 v2
